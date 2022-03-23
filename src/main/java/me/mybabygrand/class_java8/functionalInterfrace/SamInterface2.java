@@ -1,4 +1,4 @@
-package me.mybabygrand.class_java8.FunctionalInterfrace;
+package me.mybabygrand.class_java8.functionalInterfrace;
 
 @FunctionalInterface
 public interface SamInterface2 {
