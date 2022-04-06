@@ -23,10 +23,10 @@ public class IntroduceOfDateTime {
         System.out.println("=========");
         //버그를 유발하는 경우가 많다
         //생일이 1986.03.15 인 경우 아래와 같이 하면 1986.04.15라고 기록됨됨
-       Calendar birthday = new GregorianCalendar(1986, 3, 15);
-       System.out.println(birthday.getTime());
+        Calendar birthday = new GregorianCalendar(1986, 3, 15);
+        System.out.println(birthday.getTime());
 
-       Calendar realBirthday = new GregorianCalendar(1986, Calendar.MARCH, 15);
-       System.out.println(realBirthday.getTime());
+        Calendar realBirthday = new GregorianCalendar(1986, Calendar.MARCH, 15);
+        System.out.println(realBirthday.getTime());
     }
 }
