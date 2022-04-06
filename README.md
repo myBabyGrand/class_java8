@@ -4,6 +4,6 @@
    - [X] [섹션 2. 인터페이스의 변화](/md/02.ChangeOfInterface.md)
    - [X] [섹션 3. Stream](/md/03.Stream.md)
    - [X] [섹션 4. Optional](/md/04.Optional.md)
-   - [ ] 섹션 5. Date와 Time
+   - [X] [섹션 5. Date와 Time](/md/05.DateAndTime.md)
    - [ ] 섹션 6. CompletableFuture
    - [ ] 섹션 7. 그밖에 
