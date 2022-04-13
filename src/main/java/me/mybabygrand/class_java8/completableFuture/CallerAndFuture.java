@@ -7,9 +7,13 @@ import java.util.concurrent.*;
 
 public class CallerAndFuture {
     public static void main(String[] args) throws InterruptedException, ExecutionException {
-//        JobExecuteWithCallable();
-//        JobExecuteWithCallableCancel();
-//        JobExecuteWithCallableInvokeAll();
+        System.out.println("===JobExecuteWithCallable===");
+        JobExecuteWithCallable();
+        System.out.println("===JobExecuteWithCallableCancel===");
+        JobExecuteWithCallableCancel();
+        System.out.println("===JobExecuteWithCallableInvokeAll===");
+        JobExecuteWithCallableInvokeAll();
+        System.out.println("===JobExecuteWithCallableInvokeAny===");
         JobExecuteWithCallableInvokeAny();
     }
 
